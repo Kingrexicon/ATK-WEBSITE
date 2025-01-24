@@ -24,9 +24,10 @@
 
     /* NAV-BAR */
 .nav {
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
+    height: auto;
     background-color: #fcfcfd;
     width: 100%;
     overflow: hidden;
