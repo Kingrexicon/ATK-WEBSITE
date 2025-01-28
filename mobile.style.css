@@ -992,7 +992,7 @@
     justify-content: flex-start;
     gap: 15px;
 }
-.card {
+.card0 {
     flex: 0;
     border-radius: 7.5px;
     height: 261.8px;
@@ -1520,5 +1520,9 @@
 }
 .link a {
     color: #E5E5EB;
+}
+
+.card img{
+    height: 600px;
 }
 }

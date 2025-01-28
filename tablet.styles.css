@@ -52,7 +52,7 @@
 		height: 31.3px;
 	}
 	.hamburger-button {
-		background-color: transparent;
+		background-color: g;
 		border: none;
 		offset: 0px;
 		width: 48px;
@@ -63,8 +63,8 @@
 		position: relative;
 	}
 	.closeMenuBtn {
-		display: none;
-		background-color: transparent;
+		/* display: none; */
+		background-color: red;
 		outline: none;
 		/* border: 1px solid red; */
 		border: none;
@@ -99,9 +99,11 @@
 	}
 	.new-now:focus-within .hamburger-icon::before {
 		transform: translateX(-20px) rotate(45deg);
+		display: none;
 	}
 	.new-now:focus-within .hamburger-icon::after {
 		transform: translateX(-20px) rotate(-45deg);
+	display: none;
 	}
 	.nav:focus-within .nav1 {
 		display: block;
@@ -1024,7 +1026,7 @@
 		justify-content: flex-start;
 		gap: 15px;
 	}
-	.card {
+	.card0 {
 		flex: 1;
 		border-radius: 7.5px;
 		height: 261.8px;
@@ -1547,4 +1549,20 @@
 	.link a {
 		color: #e5e5eb;
 	}
+
+	.card img{
+		width: 100%;
+	height: 600px;
+	object-fit:cover;
+	object-position: top;
+	
+	
+	}.card img{
+	width: 100%;
+height: 400px;
+object-fit:cover;
+object-position: top;
+
+
+}
 }
