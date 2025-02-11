@@ -18,9 +18,11 @@
         color: #1a191c;
         font-family: Urbanist;
         margin: 0 auto;
+        
     }
-    
-
+    .homepage-desktop{
+        margin-top: 50px;
+    }
 
     /* NAV-BAR */
 .nav {
@@ -40,6 +42,7 @@
     font-size: 10.4px;
     color: #23262f;
     z-index: 2;
+    margin-block: 0px;
 }
 .new-now {
     display: flex;
@@ -175,8 +178,8 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     padding: 0.8px 0px;
     box-sizing: border-box;
     gap: 4px;
@@ -189,45 +192,91 @@
     font-size: 28.8px;
     color: #f4f3f5;
 }
+*{
+    /* border: solid; */
+}
+.hero-about {
+
+    height: 190.3px;
+    padding: 1.5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    background-image: url(Images/meet\ our\ excos.jpeg);
+    max-height: 190.25px;
+    /* z-index: 3; */
+
+    font-size: 54px;
+}
+
+.hero-excos{
+	background-image: url(Images/5a08eb77f06300ed366c4147f058b474.jpeg);
+	/* background-position:0 30%;	 */
+
+}
+.hero-event{
+	background-image: url(Images/3a96e943b901b8fd36dd5fe0be033873.jpeg);
+	background-position:0 52%;	
+	
+}
+.hero-advi{
+	background-image: url(Images/advisers.jpeg);
+	background-position:0 65%;	
+    margin-top: 58px;
+
+	
+}
+.hero-news{
+	background-image: url(Images/news.jpeg);
+	background-position:0 55%;	
+
+}
+
+.hero-contact{
+	background-image: url(Images/logp.png);
+	background-position:0 45%;	
+}
 .hero-child {
     align-self: stretch;
     flex: 1;
     position: relative;
     background-color: rgba(57, 136, 255, 0.38);
-    z-index: 0;
 }
+
+
 .frame2608181 {
-    margin: 0 !important;
-    position: absolute;
-    top: calc(50% - 71.5px);
-    left: calc(50% - 157.5px);
+   
+  font-size: 26px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 12.8px;
     z-index: 1;
 }
 .frame2608182 {
+/* font-size: 14px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    gap: 6.4px;
+    font-family: urbanist;
+    justify-content: center
 }
 .awovarsity-taekwondo-klub-container {
     position: relative;
     letter-spacing: 0.16em;
     line-height: 120%;
     font-weight: 800;
-    text-shadow: 0.8px 0 0 rgba(0, 0, 0, 0.1), 0 0.8px 0 rgba(0, 0, 0, 0.1), -0.8px 0 0 rgba(0, 0, 0, 0.1), 0 -0.8px 0 rgba(0, 0, 0, 0.1);
+    text-shadow: 2px 5px 2px rgba(0, 0, 0, 0.68);
+
 }
 .harmony-of-self {
     position: relative;
-    font-size: 19.2px;
+    font-size: 14.2px;
     font-weight: 600;
     font-family: Inter;
-    text-shadow: 0px 1.6px 1.6px rgba(0, 0, 0, 0.25);
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.68);
 }
 .hbutton-link {
     text-decoration: none;
@@ -1378,13 +1427,18 @@
     font-family: Urbanist;
 }
 
+
 .footer .col-lg-2{
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 }
-
+.footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .footer-link {
     text-decoration: none;
     color: #E5E5EB;
@@ -1396,7 +1450,7 @@ justify-content: center;
 .container {
     align-self: stretch;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     gap: 50px;
